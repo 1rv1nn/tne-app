@@ -18,19 +18,22 @@ Levanta los 3 servicios (base de datos, backend y frontend) con docker-compose.
    
 `git clone https://github.com/1rv1nn/tne-app.git`
 
-1. Entra a la carpeta
-2. 
+ 2. Entra a la carpeta
+ 
    `cd tne-app`
 
 3. Clona los servicios dentro de esta carpeta:
+   
 `git clone https://github.com/1rv1nn/tne-backend.git`
 
 `git clone https://github.com/1rv1nn/tne-frontend.git`
 
-1. Copia las variables de entorno:
+4. Copia las variables de entorno:
+   
 `copy .env.example .env`
 
-1. Levanta todos los servicios:
+5. Levanta todos los servicios:
+   
 `docker compose up -d`
 
 ## URLs
