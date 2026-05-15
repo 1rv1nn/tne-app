@@ -1,7 +1,7 @@
 # TNE App
 
 Repositorio orquestador del sistema de autenticación TNE.
-Levanta los 3 servicios (base de datos, backend y frontend) con un solo comando.
+Levanta los 3 servicios (base de datos, backend y frontend) con docker-compose.
 
 ## Repositorios
 - [tne-database](https://github.com/1rv1nn/tne-database.git)
@@ -15,18 +15,20 @@ Levanta los 3 servicios (base de datos, backend y frontend) con un solo comando.
 ## Instalación
 
 1. Clona este repositorio:
-git clone https://github.com/1rv1nn/tne-app.git
-cd tne-app
+`git clone https://github.com/1rv1nn/tne-app.git`
+
+1. Entra a la carpeta
+   `cd tne-app`
 
 1. Clona los servicios dentro de esta carpeta:
-git clone https://github.com/1rv1nn/tne-backend.git
-git clone https://github.com/1rv1nn/tne-frontend.git
+`git clone https://github.com/1rv1nn/tne-backend.git`
+`git clone https://github.com/1rv1nn/tne-frontend.git`
 
 1. Copia las variables de entorno:
-copy .env.example .env
+`copy .env.example .env`
 
-1. Levanta todo:
-docker compose up -d
+1. Levanta todos los servicios:
+`docker compose up -d`
 
 ## URLs
 | Servicio | URL |
@@ -45,4 +47,17 @@ docker compose up -d
 docker compose down
 
 
-## SS
+## Capturas de Pantalla
+
+**Login**
+![login](images_ss/login.png)
+
+**Admin**
+![admin](images_ss/bienvenida_admin.png)
+
+**Registro**
+![registro](images_ss/registro.png)
+
+
+**Invitado**
+![invitado](images_ss/invitado.png)
