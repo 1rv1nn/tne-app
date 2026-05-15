@@ -15,13 +15,16 @@ Levanta los 3 servicios (base de datos, backend y frontend) con docker-compose.
 ## Instalación
 
 1. Clona este repositorio:
+   
 `git clone https://github.com/1rv1nn/tne-app.git`
 
 1. Entra a la carpeta
+2. 
    `cd tne-app`
 
-1. Clona los servicios dentro de esta carpeta:
+3. Clona los servicios dentro de esta carpeta:
 `git clone https://github.com/1rv1nn/tne-backend.git`
+
 `git clone https://github.com/1rv1nn/tne-frontend.git`
 
 1. Copia las variables de entorno:
@@ -44,7 +47,8 @@ Levanta los 3 servicios (base de datos, backend y frontend) con docker-compose.
 | Rol      | admin          |
 
 ## Detener los servicios
-docker compose down
+
+`docker compose down`
 
 
 ## Capturas de Pantalla
